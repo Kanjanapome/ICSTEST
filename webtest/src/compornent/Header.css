@@ -1,0 +1,46 @@
+.header {
+    background: #134B8A;
+    height: 60px;
+}
+
+.ManuBar {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0 2rem 0 0;
+    overflow: hidden; 
+}
+
+.ManuBar li a {
+    color: #fff;
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
+    float: right;
+}
+.Logo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    float: left;
+    display: none;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .Manu-Down {
+        display: none;
+    }
+    .Manu-Name {
+        display: none;
+    }
+    .Manu-Bell {
+        display: none;
+    }
+    .Logo {
+        display: block;
+    }
+    
+}

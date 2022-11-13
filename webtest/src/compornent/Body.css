@@ -1,0 +1,88 @@
+.Body {
+    background-color: #e0e0e0;
+}
+
+.Barbody {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.Name-Bar {
+    float: left;
+    padding: 15px;
+}
+.Search-Bar {
+    float: right;
+    padding: 15px;
+}
+
+.Spce-Bar {
+    float: right;
+    padding: 15px;
+}
+
+.Lise-Bar {
+    float: right;
+    padding: 15px;
+}
+
+.Content {
+    display: block;
+    width: 400px;
+    height: 225px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 50px 50px 0px 50px;
+    
+}
+
+.Information {
+    display: flex;
+}
+
+.Information img{
+    height: 60px;
+    width: 60px;
+    margin: 0;
+    border-radius: 30px;
+    padding: 17px 21px;
+}
+
+.Name {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h5 {
+    font-size: x-large;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.rate {
+    color: #134b8a;
+}
+
+.Time {
+    margin: 20px 0 0 0;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Images {
+    display: flex;
+    justify-content: center;
+}
+
+.Images img{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    justify-content: center;
+}
